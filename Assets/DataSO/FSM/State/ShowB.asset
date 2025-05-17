@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 491f0e744b324cf9976c1d1560a83f10, type: 3}
   m_Name: ShowB
   m_EditorClassIdentifier: 
-  entryActions: []
+  entryActions:
+  - {fileID: 11400000, guid: 1db8b58e21b964a87a70f8096d86e689, type: 2}
+  - {fileID: 11400000, guid: 344c9d016430f43fd8a6db593c0358ae, type: 2}
   exitActions: []
   updateActions: []

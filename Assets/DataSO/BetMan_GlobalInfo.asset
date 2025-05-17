@@ -19,10 +19,12 @@ MonoBehaviour:
   EnableLocalMultiplayer: 0
   Tiles:
   - {fileID: 11400000, guid: 6f9935776c4344a42a48dcc59cc1381b, type: 2}
+  - {fileID: 11400000, guid: 6f9935776c4344a42a48dcc59cc1381b, type: 2}
   SystemDecks:
   - {fileID: 11400000, guid: cdf0beb77dcb5ad4cbaae33a35e33866, type: 2}
   - {fileID: 11400000, guid: cdf0beb77dcb5ad4cbaae33a35e33866, type: 2}
-  PlayerDecks: []
-  cardPrefabPath: item_Card
+  PlayerDecks:
+  - {fileID: 11400000, guid: cdf0beb77dcb5ad4cbaae33a35e33866, type: 2}
+  cardPrefabPath: PokerCard
   stateMachine: {fileID: 11400000, guid: 857ca61352f6a4c769b961e217df1e19, type: 2}
   NetworkMode: 0
