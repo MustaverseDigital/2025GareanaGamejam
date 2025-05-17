@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: BetMan_GlobalInfo
   m_EditorClassIdentifier: 
   GameName: BetMan
-  AvatarPrefabPath: item_PlayerInfo
+  AvatarPrefabPath: item_Avatar
   MaxPlayerCount: 1
   DeckPerPlayer: 1
   EnableLocalMultiplayer: 0
