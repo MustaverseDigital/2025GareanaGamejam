@@ -652,7 +652,6 @@ GameObject:
   - component: {fileID: 1543735774}
   - component: {fileID: 1543735775}
   - component: {fileID: 1543735776}
-  - component: {fileID: 1543735777}
   m_Layer: 5
   m_Name: HandDeck
   m_TagString: Untagged
@@ -731,30 +730,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1543735772}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ebe282c67cf434621a2f9d2b71829b09, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  selectedCard: {fileID: 0}
-  hoveredCard: {fileID: 0}
-  cards: []
-  cardSpacing: 100
-  swapAnimationDuration: 0.15
-  tweenCardReturn: 1
---- !u!114 &1543735777
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1543735772}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec08007e1aad2dd4dbb6870a0aaaa3c3, type: 3}
+  m_Script: {fileID: 11500000, guid: d58677885f194d25a59991085b295935, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cardWidth: 100
   cardDepth: 0.001
   pickedCardYOffset: 0.1
+  draggingCardIndex: -1
+  predictedIndex: -1
 --- !u!1001 &1922990970
 PrefabInstance:
   m_ObjectHideFlags: 0
