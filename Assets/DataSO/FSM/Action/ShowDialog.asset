@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ShowDialog
   m_EditorClassIdentifier: 
   targetActorParams:
-    type: 1
+    type: 4
     specificIndex: 
     indexOffset: 0
     subDeckIndex: 0

@@ -9,11 +9,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 491f0e744b324cf9976c1d1560a83f10, type: 3}
-  m_Name: Deal
+  m_Script: {fileID: 11500000, guid: 915c1868180d4fb6ad232e55b5b2bf76, type: 3}
+  m_Name: HandDealToJoker_PreAction
   m_EditorClassIdentifier: 
-  entryActions:
-  - {fileID: 11400000, guid: 51b7d7112ca7c4a88baeae32290cf7ac, type: 2}
-  - {fileID: 11400000, guid: 56b2b40fd712b4ae99450cc527a2fcab, type: 2}
-  exitActions: []
-  updateActions: []
+  subjectActorParams:
+    type: 3
+    specificIndex: 00000000
+    indexOffset: 0
+    subDeckIndex: 0
+  cardChoice:
+    count: 5
+    rule: 3
+    isRevealedToPicker: 0
