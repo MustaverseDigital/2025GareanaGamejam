@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a0ad9a00d2243a8a3858f51c3ef1cae, type: 3}
+  m_Name: SystemDeck1_Straight_Base+400
+  m_EditorClassIdentifier: 
+  trait:
+    category: 0
+    description: 
+    isStatic: 0
+    conditions:
+    - {fileID: 11400000, guid: 152893e3746814ab88e62c481f2daf74, type: 2}
+    effects:
+    - {fileID: 11400000, guid: 5b3e801ad29a646c1b34b03345677a36, type: 2}

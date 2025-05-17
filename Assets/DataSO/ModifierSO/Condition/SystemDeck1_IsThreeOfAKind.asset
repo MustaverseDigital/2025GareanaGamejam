@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1de3de8a12014d5a99a5ff2c0adc691f, type: 3}
+  m_Name: SystemDeck1_IsThreeOfAKind
+  m_EditorClassIdentifier: 
+  checkHand:
+    type: 6
+    specificIndex: 00000000
+    indexOffset: 0
+    subDeckIndex: 0
+  checkScale: 1
+  targetRankCategory: 6
