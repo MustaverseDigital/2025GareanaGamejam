@@ -19,7 +19,7 @@ MonoBehaviour:
   EnableLocalMultiplayer: 0
   Tiles:
   - {fileID: 11400000, guid: 6f9935776c4344a42a48dcc59cc1381b, type: 2}
-  - {fileID: 11400000, guid: 6f9935776c4344a42a48dcc59cc1381b, type: 2}
+  - {fileID: 11400000, guid: 0c8681fac59f94acba78d6a6438b9d04, type: 2}
   SystemDecks:
   - {fileID: 11400000, guid: cdf0beb77dcb5ad4cbaae33a35e33866, type: 2}
   - {fileID: 11400000, guid: cdf0beb77dcb5ad4cbaae33a35e33866, type: 2}
