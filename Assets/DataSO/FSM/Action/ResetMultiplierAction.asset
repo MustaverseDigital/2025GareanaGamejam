@@ -9,11 +9,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 491f0e744b324cf9976c1d1560a83f10, type: 3}
-  m_Name: Clean
+  m_Script: {fileID: 11500000, guid: 92566f5925ba446b8eb093b0597036fd, type: 3}
+  m_Name: ResetMultiplierAction
   m_EditorClassIdentifier: 
-  entryActions:
-  - {fileID: 11400000, guid: 5ac890f82d25f46bb83828571c3de7d9, type: 2}
-  - {fileID: 11400000, guid: f44eec224ab634a5daa31064b463771e, type: 2}
-  exitActions: []
-  updateActions: []
+  subjectActorParams:
+    type: 8
+    specificIndex: 
+    indexOffset: 0
+    subDeckIndex: 0
+  propertyName: Multiplier
+  propertyValueAction: 4
+  propertyValue: 1
