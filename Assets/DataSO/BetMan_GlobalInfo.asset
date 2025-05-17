@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb3f6e7e829f144428a071d617d18b7f, type: 3}
+  m_Name: BetMan_GlobalInfo
+  m_EditorClassIdentifier: 
+  GameName: BetMan
+  AvatarPrefabPath: item_PlayerInfo
+  MaxPlayerCount: 1
+  DeckPerPlayer: 1
+  EnableLocalMultiplayer: 0
+  Tiles:
+  - {fileID: 11400000, guid: 6f9935776c4344a42a48dcc59cc1381b, type: 2}
+  SystemDecks:
+  - {fileID: 11400000, guid: cdf0beb77dcb5ad4cbaae33a35e33866, type: 2}
+  - {fileID: 11400000, guid: cdf0beb77dcb5ad4cbaae33a35e33866, type: 2}
+  PlayerDecks: []
+  cardPrefabPath: item_Card
+  stateMachine: {fileID: 11400000, guid: 857ca61352f6a4c769b961e217df1e19, type: 2}
+  NetworkMode: 0

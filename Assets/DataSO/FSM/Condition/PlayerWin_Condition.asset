@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e9bdabc1cb34131a3447b6131fa8e32, type: 3}
+  m_Name: PlayerWin_Condition
+  m_EditorClassIdentifier: 
+  subject: 6
+  subjectParams: 00000000
+  subjectActorParams:
+    type: 6
+    specificIndex: 00000000
+    indexOffset: 0
+    subDeckIndex: 0
+  subjectCheckScale: 1
+  subjectCounter: 0
+  subjectCounterParams: 
+  compareType: 1
+  control: 6
+  controlParams: 01000000
+  controlActorParams:
+    type: 6
+    specificIndex: 01000000
+    indexOffset: 0
+    subDeckIndex: 0
+  controlCheckScale: 1
+  controlCounter: 0
+  controlCounterParams: 
