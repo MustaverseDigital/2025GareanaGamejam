@@ -9,10 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 491f0e744b324cf9976c1d1560a83f10, type: 3}
-  m_Name: Select
+  m_Script: {fileID: 11500000, guid: ce62740b724ed2b419b0247f0dc58ab9, type: 3}
+  m_Name: TimeoutSelectAction
   m_EditorClassIdentifier: 
-  entryActions:
-  - {fileID: 11400000, guid: 91777212ae2e240819d71469488e53c9, type: 2}
-  exitActions: []
-  updateActions: []
+  countDown: 10
+  eventKey: FinishSelect
