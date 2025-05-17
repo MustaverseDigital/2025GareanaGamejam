@@ -48,7 +48,7 @@ MonoBehaviour:
     FalseState: {fileID: 0}
   - OriginState: {fileID: 11400000, guid: b177b03423b8e45e282430af8b69739f, type: 2}
     Conditions:
-    - {fileID: 0}
+    - {fileID: 11400000, guid: 627fa51c47def45f1b86e5adf002f610, type: 2}
     TrueState: {fileID: 11400000, guid: 850fec5ccde93436e8d0672247f6ecbe, type: 2}
     FalseState: {fileID: 11400000, guid: 2427c91f874a14f6399cb4d554d51038, type: 2}
   - OriginState: {fileID: 11400000, guid: 2427c91f874a14f6399cb4d554d51038, type: 2}
