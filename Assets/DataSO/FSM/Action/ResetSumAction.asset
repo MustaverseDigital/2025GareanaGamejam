@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: ResetSumAction
   m_EditorClassIdentifier: 
   subjectActorParams:
-    type: 8
-    specificIndex: 
+    type: 4
+    specificIndex: 00000000
     indexOffset: 0
     subDeckIndex: 0
-  propertyName: Sum
+  propertyName: SumScore
   propertyValueAction: 4
   propertyValue: 0

@@ -17,7 +17,7 @@ MonoBehaviour:
     specificIndex: 01000000
     indexOffset: 0
     subDeckIndex: 0
-  actorPropertyName: Sum
+  actorPropertyName: SumScore
   refActor:
     type: 8
     specificIndex: 

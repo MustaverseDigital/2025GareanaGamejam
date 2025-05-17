@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ResetMultiplierAction
   m_EditorClassIdentifier: 
   subjectActorParams:
-    type: 8
+    type: 1
     specificIndex: 
     indexOffset: 0
     subDeckIndex: 0
