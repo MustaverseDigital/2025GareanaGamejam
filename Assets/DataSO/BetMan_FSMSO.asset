@@ -30,11 +30,12 @@ MonoBehaviour:
     FalseState: {fileID: 0}
   - OriginState: {fileID: 11400000, guid: cbd772fdb178841059222c965b59b671, type: 2}
     Conditions:
-    - {fileID: 11400000, guid: 072f714614541b04296f0e5b872c6b81, type: 2}
+    - {fileID: 11400000, guid: 822e18bee05ae4d91a9df134d9777eb3, type: 2}
     TrueState: {fileID: 11400000, guid: ebe108f05d9ee434680fc05a9cb2075c, type: 2}
     FalseState: {fileID: 0}
   - OriginState: {fileID: 11400000, guid: ebe108f05d9ee434680fc05a9cb2075c, type: 2}
-    Conditions: []
+    Conditions:
+    - {fileID: 11400000, guid: 21101078e7f7c4946a8ef0721dcf9fde, type: 2}
     TrueState: {fileID: 11400000, guid: 4ea17ef5b8190437fac607b36d08a2c3, type: 2}
     FalseState: {fileID: 11400000, guid: c6ce424af32c346158bfee9637600573, type: 2}
   - OriginState: {fileID: 11400000, guid: 4ea17ef5b8190437fac607b36d08a2c3, type: 2}
