@@ -513,7 +513,7 @@ MonoBehaviour:
         Owner: {fileID: 492639455608621821}
         DebugActive: 0
         Mode: 0
-        AnimateScaleTarget: {fileID: 0}
+        AnimateScaleTarget: {fileID: 4069605159741738093}
         AnimateScaleDuration: 0.2
         RemapCurveZero: 1
         RemapCurveOne: 2
@@ -1091,7 +1091,7 @@ MonoBehaviour:
         Owner: {fileID: 648825225839052871}
         DebugActive: 0
         Mode: 0
-        AnimateScaleTarget: {fileID: 0}
+        AnimateScaleTarget: {fileID: 2521331432378774243}
         AnimateScaleDuration: 0.2
         RemapCurveZero: 1
         RemapCurveOne: 2
@@ -1826,7 +1826,7 @@ MonoBehaviour:
         Owner: {fileID: 4951033982598316645}
         DebugActive: 0
         Mode: 0
-        AnimateScaleTarget: {fileID: 0}
+        AnimateScaleTarget: {fileID: 5101322903255500234}
         AnimateScaleDuration: 0.2
         RemapCurveZero: 1
         RemapCurveOne: 2

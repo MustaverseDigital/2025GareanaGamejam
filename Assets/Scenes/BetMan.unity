@@ -3047,7 +3047,7 @@ MonoBehaviour:
         Owner: {fileID: 712195516}
         DebugActive: 0
         Mode: 0
-        AnimateScaleTarget: {fileID: 553307035}
+        AnimateScaleTarget: {fileID: 712195513}
         AnimateScaleDuration: 0.2
         RemapCurveZero: 1
         RemapCurveOne: 2
