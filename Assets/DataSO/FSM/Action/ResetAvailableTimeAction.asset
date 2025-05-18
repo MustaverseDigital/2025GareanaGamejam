@@ -9,19 +9,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40a44babcea94ef9a60e18bbb8e657ed, type: 3}
-  m_Name: CalculateScoreAction
+  m_Script: {fileID: 11500000, guid: f0e8ee2b7da74c2ea6fbbd3f56db4044, type: 3}
+  m_Name: ResetAvailableTimeAction
   m_EditorClassIdentifier: 
-  actor:
-    type: 8
-    specificIndex: 01000000
-    indexOffset: 0
-    subDeckIndex: 0
-  actorPropertyName: BaseScore
-  refActor:
-    type: 8
+  subjectActorParams:
+    type: 1
     specificIndex: 
     indexOffset: 0
     subDeckIndex: 0
-  refActorPropertyName: Multiplier
-  propertyValueAction: 2
+  propertyName: AvailableTime
+  propertyValueAction: 4
+  propertyValue: 30

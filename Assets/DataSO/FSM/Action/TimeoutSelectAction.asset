@@ -9,8 +9,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ce62740b724ed2b419b0247f0dc58ab9, type: 3}
+  m_Script: {fileID: 11500000, guid: 0720a53dbd534d4db2f5f150f4fc06ab, type: 3}
   m_Name: TimeoutSelectAction
   m_EditorClassIdentifier: 
-  countDown: 10
+  hasMaxTime: 1
+  maxTime: 0
+  countDown: 0
   eventKey: FinishSelect
+  propertyOwnerParams:
+    type: 1
+    specificIndex: 
+    indexOffset: 0
+    subDeckIndex: 0
+  maxTimePropertyName: MaxTime
+  durationPropertyName: AvailableTime

@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 40a44babcea94ef9a60e18bbb8e657ed, type: 3}
-  m_Name: UpdateSumAction
+  m_Name: UpdateTotalScoreWithMultiplierAction
   m_EditorClassIdentifier: 
   actor:
     type: 8
@@ -23,5 +23,5 @@ MonoBehaviour:
     specificIndex: 
     indexOffset: 0
     subDeckIndex: 0
-  refActorPropertyName: BaseScore
-  propertyValueAction: 0
+  refActorPropertyName: Multiplier
+  propertyValueAction: 2
