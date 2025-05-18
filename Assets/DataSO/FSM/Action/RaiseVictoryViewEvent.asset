@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b73d733a379fc46e984a5dd4e0fb8e4a, type: 3}
   m_Name: RaiseVictoryViewEvent
   m_EditorClassIdentifier: 
-  eventName: Vicotry
+  eventName: Victory
