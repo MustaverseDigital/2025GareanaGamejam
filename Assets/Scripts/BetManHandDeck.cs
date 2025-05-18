@@ -57,5 +57,10 @@ namespace DEAL
                 field.text = newValue;
             }
         }
+
+        public override void CheckSelection()
+        {
+            // Do nothing
+        }
     }
 }

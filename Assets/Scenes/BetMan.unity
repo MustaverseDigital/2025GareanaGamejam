@@ -4176,7 +4176,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardWidth: 100
   cardDepth: 0.001
-  pickedCardYOffset: 0.1
+  pickedCardYOffset: 50
 --- !u!114 &1543735777
 MonoBehaviour:
   m_ObjectHideFlags: 0

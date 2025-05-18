@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 915c1868180d4fb6ad232e55b5b2bf76, type: 3}
-  m_Name: HandDealToJoker_PreAction
+  m_Name: Tile2Deal_9Cards_PreAction
   m_EditorClassIdentifier: 
   subjectActorParams:
-    type: 3
-    specificIndex: 00000000
+    type: 5
+    specificIndex: 01000000
     indexOffset: 0
     subDeckIndex: 0
   cardChoice:
-    count: 5
-    rule: 0
+    count: 9
+    rule: 1
     isRevealedToPicker: 0
