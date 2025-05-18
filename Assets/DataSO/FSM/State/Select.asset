@@ -13,6 +13,9 @@ MonoBehaviour:
   m_Name: Select
   m_EditorClassIdentifier: 
   entryActions:
+  - {fileID: 11400000, guid: 5ac890f82d25f46bb83828571c3de7d9, type: 2}
+  - {fileID: 11400000, guid: f44eec224ab634a5daa31064b463771e, type: 2}
+  - {fileID: 11400000, guid: 5cc94e3f3cca547e3b373ae0d6504e43, type: 2}
   - {fileID: 11400000, guid: 1e9a624925cba4a3385046005a0731ff, type: 2}
   exitActions: []
   updateActions: []
