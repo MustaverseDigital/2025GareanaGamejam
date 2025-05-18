@@ -7020,6 +7020,8 @@ MonoBehaviour:
     threshold: 500
   - comboSprite: {fileID: 427536251}
     threshold: 300
+  mVictoryScoreText: {fileID: 712195514}
+  mSumScoreText: {fileID: 754900879}
 --- !u!114 &6351195301343648463
 MonoBehaviour:
   m_ObjectHideFlags: 0

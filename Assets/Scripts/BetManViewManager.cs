@@ -4,6 +4,7 @@ using UnityEngine;
 using DEAL.Event;
 using UnityEngine.UI;
 using MoreMountains.Feedbacks;
+using TMPro;
 
 namespace DEAL.UI
 {
@@ -26,6 +27,11 @@ namespace DEAL.UI
 
         [SerializeField]
         private ComboPair[] mComboSprites;
+
+        [SerializeField]
+        private TMP_Text mVictoryScoreText;
+        [SerializeField]
+        private TMP_Text mSumScoreText;
         
         private bool isCountdownActive = false;
 
@@ -117,6 +123,7 @@ namespace DEAL.UI
 
         public void GameNormalToVictory(ViewEventPayload payload)
         {
+            mVictoryScoreText.text = mSumScoreText.text;
             mAnimator.SetTrigger("Victory"); // 轉到 ani_Victory
             VictoryFeedback.PlayFeedbacks();
         }
