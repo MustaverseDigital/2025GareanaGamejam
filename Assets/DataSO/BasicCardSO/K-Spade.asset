@@ -16,7 +16,7 @@ MonoBehaviour:
   Traits:
   - {fileID: 11400000, guid: 1a4281016196c4b6dbf3047afe3b6fc0, type: 2}
   - {fileID: 11400000, guid: c9846f813bbd345efaf890d744ca8d5e, type: 2}
-  PortraitF: {fileID: 2800000, guid: 437b673663f2adb45a504cfacdda7d3f, type: 3}
+  PortraitF: {fileID: 2800000, guid: 81c2b996a74a64bbeb4702e50c2bcd4f, type: 3}
   PortraitB: {fileID: 2800000, guid: cb3cebd111bccfc4fb7e3b08b61282cc, type: 3}
   Suit: 0
   Number: 13
