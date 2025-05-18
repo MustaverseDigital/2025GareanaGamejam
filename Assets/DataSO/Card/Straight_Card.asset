@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   index: 0
   Traits:
-  - {fileID: 11400000, guid: 175880d3b770247578be6012e7478a5b, type: 2}
+  - {fileID: 11400000, guid: e60ce9c89f5434b3392e06313ddb3ba5, type: 2}
   PortraitF: {fileID: 2800000, guid: 6421420307dc14b6296f265cff0cc738, type: 3}
   PortraitB: {fileID: 2800000, guid: 25b65c06b704449c6874591143b243f4, type: 3}
   Suit: 0
