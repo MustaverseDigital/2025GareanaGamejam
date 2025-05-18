@@ -11,6 +11,9 @@ namespace DEAL
         [SerializeField]
         private TMP_Text baseScoreText;
         private const string baseScoreKey = "BaseScore";
+        [SerializeField]
+        private TMP_Text sumScoreText;
+        private const string sumScoreKey = "SumScore";
 
         protected override void OnLocalCustomPropertyChanged(string key, GenericProperty value)
         {
@@ -22,6 +25,9 @@ namespace DEAL
                     break;
                 case baseScoreKey:
                     SetText(baseScoreText, value.ToString());
+                    break;
+                case sumScoreKey:
+                    SetText(sumScoreText, value.ToString());
                     break;
             }
         }
