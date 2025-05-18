@@ -17,6 +17,6 @@ MonoBehaviour:
     description: 
     isStatic: 0
     conditions:
-    - {fileID: 11400000, guid: 6f9c596c558714444a84f5f5a5d60aed, type: 2}
+    - {fileID: 11400000, guid: 8a79ff7eda7dc4da49cd136abae37da0, type: 2}
     effects:
-    - {fileID: 11400000, guid: a8abbb6ab6b55410abad1124f46b0803, type: 2}
+    - {fileID: 11400000, guid: b17983772c3ea41a5b68803e1b0a62f8, type: 2}
