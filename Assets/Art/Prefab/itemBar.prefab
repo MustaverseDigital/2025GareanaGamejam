@@ -255,6 +255,7 @@ GameObject:
   - component: {fileID: 4945359181299347745}
   - component: {fileID: 1201655847209987632}
   - component: {fileID: 1466328600537698500}
+  - component: {fileID: 7634899100001524890}
   m_Layer: 0
   m_Name: imgBetMan
   m_TagString: Untagged
@@ -276,7 +277,7 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 8832469169019363049}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -1.9490737}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -320,6 +321,22 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!111 &7634899100001524890
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6832196744077811972}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: d962aaf93f744476c89379c2ccd482ab, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: d962aaf93f744476c89379c2ccd482ab, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1001 &7039565298160965263
 PrefabInstance:
   m_ObjectHideFlags: 0
