@@ -4,6 +4,7 @@ using UnityEngine;
 using DEAL.Event;
 using UnityEngine.Serialization;
 using System.Collections;
+using UnityEngine.UI;
 
 namespace DEAL.UI
 {
@@ -38,6 +39,9 @@ namespace DEAL.UI
 
         [SerializeField]
         private Animator mAnimator;
+
+        [SerializeField]
+        private Slider mCountDownSlider;
 
         private void Awake()
         {
