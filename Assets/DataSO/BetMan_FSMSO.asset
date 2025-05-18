@@ -36,8 +36,8 @@ MonoBehaviour:
   - OriginState: {fileID: 11400000, guid: ebe108f05d9ee434680fc05a9cb2075c, type: 2}
     Conditions:
     - {fileID: 11400000, guid: 21101078e7f7c4946a8ef0721dcf9fde, type: 2}
-    TrueState: {fileID: 11400000, guid: 4ea17ef5b8190437fac607b36d08a2c3, type: 2}
-    FalseState: {fileID: 11400000, guid: c6ce424af32c346158bfee9637600573, type: 2}
+    TrueState: {fileID: 11400000, guid: c6ce424af32c346158bfee9637600573, type: 2}
+    FalseState: {fileID: 11400000, guid: 4ea17ef5b8190437fac607b36d08a2c3, type: 2}
   - OriginState: {fileID: 11400000, guid: 4ea17ef5b8190437fac607b36d08a2c3, type: 2}
     Conditions: []
     TrueState: {fileID: 11400000, guid: 44fbc83fc7a7d4df08639580cc226d18, type: 2}

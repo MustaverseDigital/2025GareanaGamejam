@@ -17,6 +17,6 @@ MonoBehaviour:
     specificIndex: 
     indexOffset: 0
     subDeckIndex: 0
-  propertyName: LeftTime
+  propertyName: AvailableTime
   compareType: 6
   propertyValue: 0
