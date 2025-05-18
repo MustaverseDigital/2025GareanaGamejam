@@ -2,11 +2,14 @@ using System.Collections;
 using UnityEngine;
 using DEAL.Event;
 using UnityEngine.UI;
+using MoreMountains.Feedbacks;
 
 namespace DEAL.UI
 {
     public class BetManViewManager : ViewManager
     {
+        public MMF_Player VictoryFeedback;
+
         [SerializeField]
         private Animator mAnimator;
 
@@ -14,6 +17,8 @@ namespace DEAL.UI
         private Slider mCountDownSlider;
         
         private bool isCountdownActive = false;
+
+
 
         protected override void Awake()
         {
@@ -101,6 +106,7 @@ namespace DEAL.UI
         public void GameNormalToVictory(ViewEventPayload payload)
         {
             mAnimator.SetTrigger("Victory"); // 轉到 ani_Victory
+            VictoryFeedback.PlayFeedbacks();
         }
 
         public void GameNormalToFail(ViewEventPayload payload)

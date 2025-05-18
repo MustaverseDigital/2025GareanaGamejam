@@ -1,10 +1,17 @@
 using TMPro;
 using UnityEngine;
+using MoreMountains.Feedbacks;
 
 namespace DEAL
 {
     public class BetManHandDeck : BaseDeck
     {
+        public MMF_Player ChipFeedback;
+        public MMF_Player MultFeedback;
+        public MMF_Player ToatleScoreFeedback;
+        public MMF_Player SumScoreFeedback;
+        public MMF_Player ComboFeedback;
+
         [SerializeField]
         private TMP_Text multiplierText;
         private const string multiplierKey = "Multiplier";
@@ -25,19 +32,23 @@ namespace DEAL
             {
                 case multiplierKey:
                     SetText(multiplierText, value.ToString());
+                    MultFeedback?.PlayFeedbacks();
                     break;
                 case baseScoreKey:
                     SetText(baseScoreText, value.ToString());
+                    ChipFeedback?.PlayFeedbacks();
                     break;
                 case totalScoreKey:
                     SetText(totalScoreText, value.ToString());
+                    ToatleScoreFeedback?.PlayFeedbacks();
                     break;
                 case sumScoreKey:
                     SetText(sumScoreText, value.ToString());
+                    SumScoreFeedback?.PlayFeedbacks();
                     break;
             }
         }
-        
+
         private void SetText(TMP_Text field, string newValue)
         {
             if (field != null)
