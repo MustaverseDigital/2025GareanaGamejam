@@ -9,10 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 491f0e744b324cf9976c1d1560a83f10, type: 3}
-  m_Name: Win
+  m_Script: {fileID: 11500000, guid: b73d733a379fc46e984a5dd4e0fb8e4a, type: 3}
+  m_Name: RaiseVictoryViewEvent
   m_EditorClassIdentifier: 
-  entryActions:
-  - {fileID: 11400000, guid: 93a1f0dfd0f894bd8acc3e8ff4eb95ef, type: 2}
-  exitActions: []
-  updateActions: []
+  eventName: Vicotry

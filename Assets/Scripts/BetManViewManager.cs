@@ -21,6 +21,13 @@ namespace DEAL.UI
             base.Awake();
         }
 
+        protected override void AttachViewEventListeners()
+        {
+            base.AttachViewEventListeners();
+            AttachViewEventListener("Victory", GameNormalToVictory);
+            AttachViewEventListener("Lose", GameNormalToFail);
+        }
+
         protected override void OnStopCountDown(ViewEventPayload payload)
         {
             isCountdownActive = false;
@@ -91,12 +98,12 @@ namespace DEAL.UI
             mAnimator.SetTrigger("Info"); // 轉到 Info
         }
 
-        public void OnClickGameNormalToVictory()
+        public void GameNormalToVictory(ViewEventPayload payload)
         {
             mAnimator.SetTrigger("Victory"); // 轉到 ani_Victory
         }
 
-        public void OnClickGameNormalToFail()
+        public void GameNormalToFail(ViewEventPayload payload)
         {
             mAnimator.SetTrigger("Fail"); // 轉到 ani_Fail
         }
