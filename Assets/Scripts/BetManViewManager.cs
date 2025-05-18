@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using UnityEngine;
 using DEAL.Event;
@@ -6,6 +7,13 @@ using MoreMountains.Feedbacks;
 
 namespace DEAL.UI
 {
+    [Serializable]
+    public class ComboPair
+    {
+        public GameObject comboSprite;
+        public int threshold;
+    }
+    
     public class BetManViewManager : ViewManager
     {
         public MMF_Player VictoryFeedback;
@@ -15,6 +23,9 @@ namespace DEAL.UI
 
         [SerializeField]
         private Slider mCountDownSlider;
+
+        [SerializeField]
+        private ComboPair[] mComboSprites;
         
         private bool isCountdownActive = false;
 
@@ -31,6 +42,7 @@ namespace DEAL.UI
             base.AttachViewEventListeners();
             AttachViewEventListener("Victory", GameNormalToVictory);
             AttachViewEventListener("Lose", GameNormalToFail);
+            AttachViewEventListener("OnShowCombo", OnShowCombo);
         }
 
         protected override void OnStopCountDown(ViewEventPayload payload)
@@ -112,6 +124,34 @@ namespace DEAL.UI
         public void GameNormalToFail(ViewEventPayload payload)
         {
             mAnimator.SetTrigger("Fail"); // 轉到 ani_Fail
+        }
+
+        public void OnShowCombo(ViewEventPayload payload)
+        {
+            var comboScore = (int) payload.data;
+            for (var i = 0; i < mComboSprites.Length; i++)
+            {
+                if (comboScore >= mComboSprites[i].threshold)
+                {
+                    mComboSprites[i].comboSprite.SetActive(true);
+                    for (var j = 0; j < mComboSprites.Length; j++)
+                    {
+                        if (j != i)
+                        {
+                            mComboSprites[j].comboSprite.SetActive(false);
+                        }
+                    }
+                    break;
+                }
+            }
+            // if none of the above conditions are met, hide all combo sprites
+            if (comboScore < mComboSprites[^1].threshold)
+            {
+                foreach (var comboPair in mComboSprites)
+                {
+                    comboPair.comboSprite.SetActive(false);
+                }
+            }
         }
     }
 }

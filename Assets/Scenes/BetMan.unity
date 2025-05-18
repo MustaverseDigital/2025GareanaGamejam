@@ -4500,7 +4500,7 @@ MonoBehaviour:
   MultFeedback: {fileID: 1232011821}
   ToatleScoreFeedback: {fileID: 22616341}
   SumScoreFeedback: {fileID: 1835095984}
-  ComboFeedback: {fileID: 0}
+  ComboFeedback: {fileID: 2099254767}
   multiplierText: {fileID: 1232011819}
   baseScoreText: {fileID: 1225607036}
   totalScoreText: {fileID: 22616339}
@@ -7011,6 +7011,15 @@ MonoBehaviour:
   VictoryFeedback: {fileID: 712195516}
   mAnimator: {fileID: 5502045612683451590}
   mCountDownSlider: {fileID: 2033848250930199989}
+  mComboSprites:
+  - comboSprite: {fileID: 205191419}
+    threshold: 1000
+  - comboSprite: {fileID: 898326336}
+    threshold: 750
+  - comboSprite: {fileID: 1919696557}
+    threshold: 500
+  - comboSprite: {fileID: 427536251}
+    threshold: 300
 --- !u!114 &6351195301343648463
 MonoBehaviour:
   m_ObjectHideFlags: 0

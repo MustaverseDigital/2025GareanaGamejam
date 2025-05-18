@@ -1,3 +1,4 @@
+using DEAL.Event;
 using TMPro;
 using UnityEngine;
 using MoreMountains.Feedbacks;
@@ -40,6 +41,9 @@ namespace DEAL
                     break;
                 case totalScoreKey:
                     SetText(totalScoreText, value.ToString());
+                    var eventPayload = new ViewEventPayload { eventKey = "OnShowCombo", dataType = GlobalEnum.PropertyType.Int, data = (int)value.value };
+                    NetworkEventSystem.BroadcastEvent(EventType.VIEW_EVENT, eventPayload);
+                    ComboFeedback?.PlayFeedbacks();
                     ToatleScoreFeedback?.PlayFeedbacks();
                     break;
                 case sumScoreKey:
