@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 491f0e744b324cf9976c1d1560a83f10, type: 3}
   m_Name: Lose
   m_EditorClassIdentifier: 
-  entryActions: []
+  entryActions:
+  - {fileID: 11400000, guid: cdd2169e6bb5046b381914ce6325e43e, type: 2}
   exitActions: []
   updateActions: []
